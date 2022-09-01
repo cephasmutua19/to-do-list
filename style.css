@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+body{
+    background-color: whitesmoke;
+}
+
+#header-title{
+    background-color: #1c923f;
+    color: aliceblue;
+    height: 5em;
+    padding: 0 3em;
+    display: grid;
+    grid-column: 1fr;
+    align-items: center;
+    
+}
+.row{
+    /* height: 4.5em; */
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    margin-bottom: 4px;
+}
+h1 +.form-control{
+    /* height: 2.3em; */
+    border: 3px solid rgba(250, 250, 250, 0.712);
+    border-radius: 3px;
+    padding: 3px;
+    color: #666;
+    
+}
+.container{
+    /* background-color: whitesmoke; */
+    padding: 1em 3em;
+}
+.card{
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    padding: 1em;
+}
+
+.btn{
+    border-radius: 3px;
+    border: none;
+    padding: .3em .5em;
+    color: aliceblue;
+    background-color: rgb(3, 34, 16);
+    font-size:16px;
+    text-align: center;
+}
+.form-control.control-2{
+    height: 2.3em;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    padding: 3px;
+    color: #666;
+    
+}
+.form-control:focus{
+    outline-style: none;
+}
+
+.inline-form{
+    padding-bottom: 1em;
+    
+}
+
+.list-group{
+    list-style: none;
+    border-top:2px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    margin-top: .5em;
+}
+
+.list-group-item{
+    border-bottom: 2px solid #ddd;
+    padding: 1em 5px;
+    display: grid;
+    color: #464646;
+    grid-template-columns: 4fr 1fr;
+}
+
+.delete{
+    align-self: center;
+    justify-self: end;
+    font-size: 1.3em;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+    padding: 0 8px 2px;
+    text-align: center;
+    background-color: rgb(221, 48, 57);
+}
+
